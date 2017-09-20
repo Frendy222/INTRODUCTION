@@ -1,15 +1,5 @@
-import os
-import time
+x=2
+y = 100
 
-
-s=0
-m=0
-
-while s<=60:
-    os.system('cls')
-    print (m, 'Minutes', s, 'Seconds')
-    time.sleep(1)
-    s+=1
-    if s==60:
-        m+=1
-        s=0
+for num in range (2,100,2):
+    print(num)
